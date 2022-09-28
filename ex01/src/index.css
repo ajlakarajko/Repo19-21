@@ -1,0 +1,144 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #001f3f;
+}
+
+textarea {
+    width: 66%;
+    margin-left: 17%;
+    height: 30vh;
+    resize: none;
+    color: #001f3f;
+    font-size: 1.4rem;
+}
+
+.container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 70%;
+    height: 40vh;
+    margin-left: 15%;
+    border: 2px solid black;
+}
+
+.el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.el-back {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.el-caps {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.el-shift {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.el-space {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.el-submit {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.el-ok {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.opac {
+    opacity: 0.8;
+}
+
+.el-back:hover {
+    opacity: 0.8;
+}
+
+.el-caps:hover {
+    opacity: 0.8;
+}
+
+.el-shift:hover {
+    opacity: 0.8;
+}
+
+.el-space:hover {
+    opacity: 0.8;
+}
+
+.el-ok:hover {
+    opacity: 0.8;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
